@@ -28,4 +28,4 @@ function getPropertyHtml(propertyForSaleArr = [placeholderPropertyObj]) {
 }
 
 // Inserting the generated HTML into the element with id 'container' and joining array elements into a single string
-document.getElementById('container').innerHTML = getPropertyHtml(propertyForSaleArr ).join(' ')
+document.getElementById('container').innerHTML = getPropertyHtml(propertyForSaleArr).join(' ')
