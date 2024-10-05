@@ -28,3 +28,5 @@ export const propertyForSaleArr = [
         image: 'shed.jpg'
     }
 ]
+
+export default propertyForSaleArr
