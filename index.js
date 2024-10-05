@@ -14,7 +14,7 @@ function getPropertyHtml(propertyForSaleArr = [placeholderPropertyObj]) {
     
         // Returning the HTML structure for each property card with interpolated values
         return  `<section class="card">
-                    <img src="./images/${image}" alt="${propertyLocation}">
+                    <img src="images/${image}" alt="${propertyLocation}">
                     <div class="card-right">
                         <h2>${propertyLocation}</h2>
                         <h3>${priceGBP}</h3>
