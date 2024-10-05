@@ -9,6 +9,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     padding: 20px;
+    margin-top: 50px;
 }
 
 .card {
@@ -19,12 +20,13 @@ body {
     margin: 0 20px 15px 20px;
     border-radius: 5px;
     max-height: 120px;
+    padding: 20px;
 }
 
 .card img {
    border-top-left-radius: 5px;
    border-bottom-left-radius: 5px;
-   height: 100%;
+   height: 130px;
 }
 
 .card-right {
